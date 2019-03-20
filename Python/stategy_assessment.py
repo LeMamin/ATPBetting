@@ -203,3 +203,4 @@ def plotProfits(confidence,title=""):
     plt.xlabel("% of matches we bet on")
     plt.ylabel("Return on investment (%)")
     plt.suptitle(title)
+    plt.savefig('../Generated Data/profits')

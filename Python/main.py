@@ -234,10 +234,12 @@ ax.plot(profits,linewidth=2,marker="o")
 plt.suptitle("Betting on sections of 100 matches")
 ax.set_xlabel("From 2013 to 2018")
 ax.set_ylabel("ROI")
-
+fig.savefig('../Generated Data/bettingROI')
+    
 fig=plt.figure(figsize=(5.5,3))
 ax = fig.add_axes([0,0,1,0.9])  
 ax.plot(lens,linewidth=2,marker="o")
 plt.suptitle("Betting on sections of 100 matches")
 ax.set_xlabel("From 2013 to 2018")
 ax.set_ylabel("For each section, number of matches we bet on")
+fig.savefig('../Generated Data/bettingSection')
